@@ -149,7 +149,7 @@ What else can we try?
 
 13. Add the following property to `notecard-left`:
 ```
-    flex-grow: 1:
+    flex-grow: 1;
 ```
 
 The `flex-grow` property applies only to flex children, and determines how they will behave when there is extra space around them. Since we set `flex-grow` to `1`, the `notecard-left` element will try to expand into the unused space. Looks good!
